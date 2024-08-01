@@ -1,1 +1,2 @@
-# utn-frro-tup-p2-2024-2c
+# Proyecto para programación 2
+# 1era parte, HTML
