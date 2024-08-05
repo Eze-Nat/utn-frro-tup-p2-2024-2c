@@ -1,2 +1,2 @@
-# Proyecto para programación 2
-# 1era parte, HTML
+# Programación 2
+# Aca subo todas las prácticas
