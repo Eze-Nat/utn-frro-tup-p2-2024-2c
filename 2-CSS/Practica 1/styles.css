@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.title {
+  font-size: 24px;
+  color: #242424;
+  font-weight: 900;
+}
+
+.sub {
+  font-size: 20px;
+  color: #606060;
+  font-weight: 800;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.region-list {
+  list-style-type: none;
+  margin-left: 100px;
+  padding: 20px;
+  border: 2px solid blue;
+  max-width: 40%;
+}
+
+.region-item {
+  font-family: monospace;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.region-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.region-link {
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.special,
+.special-link {
+  color: green;
+}
+
+a {
+  font-weight: bold;
+}
