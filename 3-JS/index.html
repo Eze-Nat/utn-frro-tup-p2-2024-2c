@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1. Escribe un programa de una sola línea que haga que aparezca en la
+    pantalla un alert que diga “Hello World”. 2. Escribe un programa de una sola
+    línea que escriba en la pantalla un texto que diga “Hello World”
+    (document.write). 3. Escribe un programa de una sola línea que escriba en la
+    pantalla el resultado de sumar 3 + 5. 4. Escribe un programa de dos líneas
+    que pida el nombre del usuario con un prompt y escriba un texto que diga
+    “Hola nombreUsuario” 5. Escribe un programa de tres líneas que pida un
+    número, pida otro número y escriba el resultado de sumar estos dos números. -->
+
+    <script>
+    // 1
+      alert("Hello World");
+    // 2
+      document.write("Hello world <br>");
+    // 3
+      document.write("La suma de 3+5 es: ", 3 + 5);
+    // 4 
+      let nombreDeUsuario = prompt("Cual es tu nombre?");
+      alert("Hola " + nombreDeUsuario);
+    // 5
+      let num1 = parseFloat(prompt("Elija un numero"));
+      let num2 = parseFloat(prompt("Elija otro numero"));
+      alert("La suma de sus numeros es: " + (num1 + num2))
+    </script>
+  </body>
+</html>
